@@ -1,0 +1,41 @@
+body {
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    overflow: hidden;
+    font-family: "Playfair Display";
+}
+
+img {
+    width: 500px;
+    height: auto;
+    border-radius: 25px;
+}
+
+.contain {
+    display: flex;
+    margin: 150px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.teks {
+    font-size: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: Lato;
+    font-weight: 350;
+
+}
+
+button {
+    border-radius: 50px;
+    padding: 20px 40px;
+    font-size: 15px;
+    font-family: Lato;
+    background-color: brown;
+    border: none;
+    cursor: pointer;
+}
